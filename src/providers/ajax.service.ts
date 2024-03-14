@@ -15,6 +15,7 @@ import { SERVICE } from "./constants";
 export class AjaxService {
   IsTokenByPass: boolean = true;
 
+  // common ajax file
   constructor(
     private tokenHelper: JwtService,
     private http: HttpClient
